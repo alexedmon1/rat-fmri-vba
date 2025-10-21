@@ -1090,19 +1090,7 @@ wheels = [
 ]
 
 [[package]]
-name = "rdflib"
-version = "7.2.1"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pyparsing" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/8d/99/d2fec85e5f6bdfe4367dea143119cb4469bf48710487939df0abf7e22003/rdflib-7.2.1.tar.gz", hash = "sha256:cf9b7fa25234e8925da8b1fb09700f8349b5f0f100e785fb4260e737308292ac", size = 4873802, upload-time = "2025-09-19T02:33:36.492Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/31/98/7fa830bb4b9da21905683a5352aa0a01a1f3082328ae976aad341e980c23/rdflib-7.2.1-py3-none-any.whl", hash = "sha256:1a175bc1386a167a42fbfaba003bfa05c164a2a3ca3cb9c0c97f9c9638ca6ac2", size = 565423, upload-time = "2025-09-19T02:33:30.889Z" },
-]
-
-[[package]]
-name = "reho"
+name = "rat-fmri-vba"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
@@ -1126,6 +1114,18 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.3.4" },
     { name = "scipy", specifier = ">=1.16.2" },
     { name = "spyder-kernels", specifier = ">=3.1.0" },
+]
+
+[[package]]
+name = "rdflib"
+version = "7.2.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyparsing" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8d/99/d2fec85e5f6bdfe4367dea143119cb4469bf48710487939df0abf7e22003/rdflib-7.2.1.tar.gz", hash = "sha256:cf9b7fa25234e8925da8b1fb09700f8349b5f0f100e785fb4260e737308292ac", size = 4873802, upload-time = "2025-09-19T02:33:36.492Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/31/98/7fa830bb4b9da21905683a5352aa0a01a1f3082328ae976aad341e980c23/rdflib-7.2.1-py3-none-any.whl", hash = "sha256:1a175bc1386a167a42fbfaba003bfa05c164a2a3ca3cb9c0c97f9c9638ca6ac2", size = 565423, upload-time = "2025-09-19T02:33:30.889Z" },
 ]
 
 [[package]]
